@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402652602B14A63C0020C047 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4026525F2B14A63C0020C047 /* SignInView.swift */; };
+		40A3534C2B12FBA00063E12E /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3534B2B12FBA00063E12E /* NewsCardView.swift */; };
+		40A3534E2B12FEF50063E12E /* apimodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3534D2B12FEF50063E12E /* apimodel.swift */; };
+		40A353502B12FF710063E12E /* Apiservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3534F2B12FF710063E12E /* Apiservice.swift */; };
+		40A353522B1300D20063E12E /* imageloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A353512B1300D20063E12E /* imageloader.swift */; };
+		40A353542B1311420063E12E /* SFSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A353532B1311420063E12E /* SFSafariViewController.swift */; };
+		40B48A5C2B14905800EE0775 /* welcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B48A5B2B14905800EE0775 /* welcomeScreenView.swift */; };
+		40B48A5E2B14909B00EE0775 /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B48A5D2B14909B00EE0775 /* signUpView.swift */; };
+		40EEE2C52AF79B8B006980E6 /* ios_healthupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EEE2C42AF79B8B006980E6 /* ios_healthupApp.swift */; };
+		40EEE2C72AF79B8B006980E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EEE2C62AF79B8B006980E6 /* ContentView.swift */; };
+		40EEE2C92AF79B8C006980E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EEE2C82AF79B8C006980E6 /* Assets.xcassets */; };
+		40EEE2CC2AF79B8C006980E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EEE2CB2AF79B8C006980E6 /* Preview Assets.xcassets */; };
+		40EEE2D32AF79DF6006980E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40EEE2D22AF79DF6006980E6 /* GoogleService-Info.plist */; };
+		40EEE2D62AF79E65006980E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 40EEE2D52AF79E65006980E6 /* FirebaseAuth */; };
+		40EEE2D82AF79E65006980E6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 40EEE2D72AF79E65006980E6 /* FirebaseDatabase */; };
+		40EEE2DA2AF79E65006980E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 40EEE2D92AF79E65006980E6 /* FirebaseFirestore */; };
+		40EEE2DC2AF79E65006980E6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 40EEE2DB2AF79E65006980E6 /* FirebaseFirestoreCombine-Community */; };
+		40EEE2DE2AF79E65006980E6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 40EEE2DD2AF79E65006980E6 /* FirebaseFirestoreSwift */; };
+		40EEE2E02AF79E65006980E6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 40EEE2DF2AF79E65006980E6 /* FirebaseStorage */; };
+		40EEE2E22AF79E65006980E6 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 40EEE2E12AF79E65006980E6 /* FirebaseStorageCombine-Community */; };
+		40EEE2E72AF7A084006980E6 /* AddMedicineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EEE2E62AF7A084006980E6 /* AddMedicineView.swift */; };
+		40EEE2EB2AF7A6D4006980E6 /* MedicineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EEE2EA2AF7A6D4006980E6 /* MedicineListView.swift */; };
+		93F506DC61D8C529B6EF2D35 /* Pods_ios_healthup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B787D6C1692D4816971BAA67 /* Pods_ios_healthup.framework */; };
+		CE92B77B2B073D9D00675EAD /* Homeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B77A2B073D9D00675EAD /* Homeview.swift */; };
+		CE92B77D2B07652700675EAD /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B77C2B07652600675EAD /* NotificationManager.swift */; };
+		CE92B7822B076D4C00675EAD /* WeightInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7812B076D4C00675EAD /* WeightInputView.swift */; };
+		CE92B7882B07943900675EAD /* WeightChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7872B07943900675EAD /* WeightChartView.swift */; };
+		CE92B78A2B07979800675EAD /* BmIInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92B7892B07979800675EAD /* BmIInputView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4026525F2B14A63C0020C047 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		40A3534B2B12FBA00063E12E /* NewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardView.swift; sourceTree = "<group>"; };
+		40A3534D2B12FEF50063E12E /* apimodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apimodel.swift; sourceTree = "<group>"; };
+		40A3534F2B12FF710063E12E /* Apiservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apiservice.swift; sourceTree = "<group>"; };
+		40A353512B1300D20063E12E /* imageloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageloader.swift; sourceTree = "<group>"; };
+		40A353532B1311420063E12E /* SFSafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewController.swift; sourceTree = "<group>"; };
+		40B48A5B2B14905800EE0775 /* welcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeScreenView.swift; sourceTree = "<group>"; };
+		40B48A5D2B14909B00EE0775 /* signUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
+		40EEE2C12AF79B8B006980E6 /* ios_healthup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_healthup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EEE2C42AF79B8B006980E6 /* ios_healthupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_healthupApp.swift; sourceTree = "<group>"; };
+		40EEE2C62AF79B8B006980E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40EEE2C82AF79B8C006980E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EEE2CB2AF79B8C006980E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40EEE2D22AF79DF6006980E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40EEE2E62AF7A084006980E6 /* AddMedicineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicineView.swift; sourceTree = "<group>"; };
+		40EEE2EA2AF7A6D4006980E6 /* MedicineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineListView.swift; sourceTree = "<group>"; };
+		6C241E5371D6F117B9625C72 /* Pods-ios_healthup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_healthup.debug.xcconfig"; path = "Target Support Files/Pods-ios_healthup/Pods-ios_healthup.debug.xcconfig"; sourceTree = "<group>"; };
+		B787D6C1692D4816971BAA67 /* Pods_ios_healthup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_healthup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE92B77A2B073D9D00675EAD /* Homeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeview.swift; sourceTree = "<group>"; };
+		CE92B77C2B07652600675EAD /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		CE92B77E2B07689000675EAD /* ios-healthup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ios-healthup-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CE92B7812B076D4C00675EAD /* WeightInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightInputView.swift; sourceTree = "<group>"; };
+		CE92B7872B07943900675EAD /* WeightChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightChartView.swift; sourceTree = "<group>"; };
+		CE92B7892B07979800675EAD /* BmIInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmIInputView.swift; sourceTree = "<group>"; };
+		D5A5B469822235DBCDFDB57A /* Pods-ios_healthup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_healthup.release.xcconfig"; path = "Target Support Files/Pods-ios_healthup/Pods-ios_healthup.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EEE2BE2AF79B8B006980E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EEE2DE2AF79E65006980E6 /* FirebaseFirestoreSwift in Frameworks */,
+				40EEE2E22AF79E65006980E6 /* FirebaseStorageCombine-Community in Frameworks */,
+				40EEE2D82AF79E65006980E6 /* FirebaseDatabase in Frameworks */,
+				40EEE2DC2AF79E65006980E6 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				40EEE2D62AF79E65006980E6 /* FirebaseAuth in Frameworks */,
+				40EEE2DA2AF79E65006980E6 /* FirebaseFirestore in Frameworks */,
+				40EEE2E02AF79E65006980E6 /* FirebaseStorage in Frameworks */,
+				93F506DC61D8C529B6EF2D35 /* Pods_ios_healthup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EEE2B82AF79B8B006980E6 = {
+			isa = PBXGroup;
+			children = (
+				40EEE2C32AF79B8B006980E6 /* ios_healthup */,
+				40EEE2C22AF79B8B006980E6 /* Products */,
+				6C95D4771F7018D62B6BE693 /* Pods */,
+				64A86C44205A071117AC0CEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40EEE2C22AF79B8B006980E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EEE2C12AF79B8B006980E6 /* ios_healthup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EEE2C32AF79B8B006980E6 /* ios_healthup */ = {
+			isa = PBXGroup;
+			children = (
+				CE92B77E2B07689000675EAD /* ios-healthup-Info.plist */,
+				CE92B7792B073D5700675EAD /* Homepage */,
+				40EEE2E52AF7A06E006980E6 /* Medicines */,
+				40EEE2D22AF79DF6006980E6 /* GoogleService-Info.plist */,
+				40EEE2C42AF79B8B006980E6 /* ios_healthupApp.swift */,
+				40EEE2C62AF79B8B006980E6 /* ContentView.swift */,
+				40EEE2C82AF79B8C006980E6 /* Assets.xcassets */,
+				40EEE2CA2AF79B8C006980E6 /* Preview Content */,
+			);
+			path = ios_healthup;
+			sourceTree = "<group>";
+		};
+		40EEE2CA2AF79B8C006980E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40EEE2CB2AF79B8C006980E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40EEE2E52AF7A06E006980E6 /* Medicines */ = {
+			isa = PBXGroup;
+			children = (
+				40EEE2E62AF7A084006980E6 /* AddMedicineView.swift */,
+				40EEE2EA2AF7A6D4006980E6 /* MedicineListView.swift */,
+			);
+			path = Medicines;
+			sourceTree = "<group>";
+		};
+		64A86C44205A071117AC0CEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B787D6C1692D4816971BAA67 /* Pods_ios_healthup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C95D4771F7018D62B6BE693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C241E5371D6F117B9625C72 /* Pods-ios_healthup.debug.xcconfig */,
+				D5A5B469822235DBCDFDB57A /* Pods-ios_healthup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE92B7792B073D5700675EAD /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				CE92B77A2B073D9D00675EAD /* Homeview.swift */,
+				CE92B77C2B07652600675EAD /* NotificationManager.swift */,
+				CE92B7812B076D4C00675EAD /* WeightInputView.swift */,
+				CE92B7872B07943900675EAD /* WeightChartView.swift */,
+				CE92B7892B07979800675EAD /* BmIInputView.swift */,
+				40A3534B2B12FBA00063E12E /* NewsCardView.swift */,
+				40A3534D2B12FEF50063E12E /* apimodel.swift */,
+				40A3534F2B12FF710063E12E /* Apiservice.swift */,
+				40A353512B1300D20063E12E /* imageloader.swift */,
+				40A353532B1311420063E12E /* SFSafariViewController.swift */,
+				40B48A5B2B14905800EE0775 /* welcomeScreenView.swift */,
+				40B48A5D2B14909B00EE0775 /* signUpView.swift */,
+				4026525F2B14A63C0020C047 /* SignInView.swift */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EEE2C02AF79B8B006980E6 /* ios_healthup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EEE2CF2AF79B8C006980E6 /* Build configuration list for PBXNativeTarget "ios_healthup" */;
+			buildPhases = (
+				DAC2F9C390580B1FB24D15B7 /* [CP] Check Pods Manifest.lock */,
+				40EEE2BD2AF79B8B006980E6 /* Sources */,
+				40EEE2BE2AF79B8B006980E6 /* Frameworks */,
+				40EEE2BF2AF79B8B006980E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_healthup;
+			packageProductDependencies = (
+				40EEE2D52AF79E65006980E6 /* FirebaseAuth */,
+				40EEE2D72AF79E65006980E6 /* FirebaseDatabase */,
+				40EEE2D92AF79E65006980E6 /* FirebaseFirestore */,
+				40EEE2DB2AF79E65006980E6 /* FirebaseFirestoreCombine-Community */,
+				40EEE2DD2AF79E65006980E6 /* FirebaseFirestoreSwift */,
+				40EEE2DF2AF79E65006980E6 /* FirebaseStorage */,
+				40EEE2E12AF79E65006980E6 /* FirebaseStorageCombine-Community */,
+			);
+			productName = ios_healthup;
+			productReference = 40EEE2C12AF79B8B006980E6 /* ios_healthup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EEE2B92AF79B8B006980E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					40EEE2C02AF79B8B006980E6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 40EEE2BC2AF79B8B006980E6 /* Build configuration list for PBXProject "ios_healthup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EEE2B82AF79B8B006980E6;
+			packageReferences = (
+				40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 40EEE2C22AF79B8B006980E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EEE2C02AF79B8B006980E6 /* ios_healthup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EEE2BF2AF79B8B006980E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EEE2CC2AF79B8C006980E6 /* Preview Assets.xcassets in Resources */,
+				40EEE2C92AF79B8C006980E6 /* Assets.xcassets in Resources */,
+				40EEE2D32AF79DF6006980E6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAC2F9C390580B1FB24D15B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_healthup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EEE2BD2AF79B8B006980E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE92B77D2B07652700675EAD /* NotificationManager.swift in Sources */,
+				40EEE2C72AF79B8B006980E6 /* ContentView.swift in Sources */,
+				40A353502B12FF710063E12E /* Apiservice.swift in Sources */,
+				CE92B77B2B073D9D00675EAD /* Homeview.swift in Sources */,
+				40A3534C2B12FBA00063E12E /* NewsCardView.swift in Sources */,
+				CE92B7822B076D4C00675EAD /* WeightInputView.swift in Sources */,
+				402652602B14A63C0020C047 /* SignInView.swift in Sources */,
+				40A3534E2B12FEF50063E12E /* apimodel.swift in Sources */,
+				40A353542B1311420063E12E /* SFSafariViewController.swift in Sources */,
+				40EEE2E72AF7A084006980E6 /* AddMedicineView.swift in Sources */,
+				CE92B7882B07943900675EAD /* WeightChartView.swift in Sources */,
+				40EEE2EB2AF7A6D4006980E6 /* MedicineListView.swift in Sources */,
+				40EEE2C52AF79B8B006980E6 /* ios_healthupApp.swift in Sources */,
+				40B48A5E2B14909B00EE0775 /* signUpView.swift in Sources */,
+				CE92B78A2B07979800675EAD /* BmIInputView.swift in Sources */,
+				40B48A5C2B14905800EE0775 /* welcomeScreenView.swift in Sources */,
+				40A353522B1300D20063E12E /* imageloader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40EEE2CD2AF79B8C006980E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EEE2CE2AF79B8C006980E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40EEE2D02AF79B8C006980E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C241E5371D6F117B9625C72 /* Pods-ios_healthup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios_healthup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-healthup-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.health.up.ios-healthup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40EEE2D12AF79B8C006980E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A5B469822235DBCDFDB57A /* Pods-ios_healthup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios_healthup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-healthup-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.health.up.ios-healthup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EEE2BC2AF79B8B006980E6 /* Build configuration list for PBXProject "ios_healthup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EEE2CD2AF79B8C006980E6 /* Debug */,
+				40EEE2CE2AF79B8C006980E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EEE2CF2AF79B8C006980E6 /* Build configuration list for PBXNativeTarget "ios_healthup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EEE2D02AF79B8C006980E6 /* Debug */,
+				40EEE2D12AF79B8C006980E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		40EEE2D52AF79E65006980E6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		40EEE2D72AF79E65006980E6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		40EEE2D92AF79E65006980E6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		40EEE2DB2AF79E65006980E6 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		40EEE2DD2AF79E65006980E6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		40EEE2DF2AF79E65006980E6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		40EEE2E12AF79E65006980E6 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40EEE2D42AF79E65006980E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 40EEE2B92AF79B8B006980E6 /* Project object */;
+}

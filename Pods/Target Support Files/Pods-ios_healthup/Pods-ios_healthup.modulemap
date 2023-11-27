@@ -1,0 +1,6 @@
+framework module Pods_ios_healthup {
+  umbrella header "Pods-ios_healthup-umbrella.h"
+
+  export *
+  module * { export * }
+}
